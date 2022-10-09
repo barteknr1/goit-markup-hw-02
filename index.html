@@ -5,31 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-    </style>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <a class="logo" href="/"><span class="accent">Web</span>Studio</a>
+    <header class="menu-container">
+      <a class="link" href="/index.html"
+        ><span class="logo-blue">Web</span
+        ><span class="logo-black">Studio</span></a
+      >
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="porftolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="list">
+          <li>
+            <a class="link active-page inline" href="/index.html">Agencja</a>
+          </li>
+          <li><a class="link inline" href="/porftolio.html">Portfolio</a></li>
+          <li><a class="link inline" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="list">
+        <li>
+          <a class="link-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button type="button">Zamów usługe</button>
+      <div class="bg">
+        <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="btn" type="button">Zamów usługe</button>
+      </div>
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <h4>LOREM IPSUM</h4>
             <p>
@@ -62,20 +76,20 @@
       </section>
       <section>
         <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="inline">
             <figure>
               <img src=images/keyboard.jpg width="370" height="294"
               alt="Programowanie">
             </figure>
           </li>
-          <li>
+          <li class="inline">
             <figure>
               <img src=images/smartphone.jpg width="370" height="294"
               alt="Programowanie ze smartfonem">
             </figure>
           </li>
-          <li>
+          <li class="inline">
             <figure>
               <img src=images/tablet.jpg width="370" height="294" alt="Paleta
               kolorów na tablecie">
@@ -85,51 +99,51 @@
       </section>
       <section>
         <h2>Nasz zespół</h2>
-        <ul>
-          <li>
+        <ul class="list team-bg">
+          <li class="inline">
             <figure>
               <img src=images/productdesigner.jpg width="270" height="260"
               alt="Product Designer">
               <figcaption>
                 <ul>
-                  <li><strong>John Doe</strong></li>
-                  <li>Product Designer</li>
+                  <li class="caption">John Doe</li>
+                  <li class="caption-gray">Product Designer</li>
                 </ul>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="inline">
             <figure>
               <img src=images/frontend.jpg width="270" height="260"
               alt="Frontend developer">
               <figcaption>
                 <ul>
-                  <li><strong>John Doe</strong></li>
-                  <li>Frontend developer</li>
+                  <li class="caption">John Doe</li>
+                  <li class="caption-gray">Frontend developer</li>
                 </ul>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="inline">
             <figure>
               <img src=images/marketing.jpg width="270" height="260"
               alt="Marketing">
               <figcaption>
                 <ul>
-                  <li><strong>John Doe</strong></li>
-                  <li>Marketing</li>
+                  <li class="caption">John Doe</li>
+                  <li class="caption-gray">Marketing</li>
                 </ul>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="inline">
             <figure>
               <img src=images/uidesigner.jpg width="270" height="260" alt="UI
               Designer">
               <figcaption>
                 <ul>
-                  <li><strong>John Doe</strong></li>
-                  <li>UI Designer</li>
+                  <li class="caption">John Doe</li>
+                  <li class="caption-gray">UI Designer</li>
                 </ul>
               </figcaption>
             </figure>
@@ -137,15 +151,28 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <ul>
-        <li><span class="accent">Web</span>Studio</li>
+    <footer class="footer">
+      <ul class="list">
+        <li>
+          <a class="logo" href="./index.html"
+            ><span class="logo-blue">Web</span
+            ><span class="logo-white">Studio</span></a
+          >
+        </li>
       </ul>
       <address>
-        <ul>
+        <ul class="list">
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="link-contact-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link-contact-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>

@@ -4,46 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-    </style>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <a href="/"
-        ><span class="accent">Web</span><span class="studio">Studio</span></a
+    <header class="menu-container">
+      <a class="link" href="/index.html"
+        ><span class="logo-blue">Web</span
+        ><span class="logo-black">Studio</span></a
       >
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="porftolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="list">
+          <li><a class="link" href="/index.html">Agencja</a></li>
+          <li>
+            <a class="link active-page" href="/porftolio.html">Portfolio</a>
+          </li>
+          <li><a class="link" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="list">
+        <li>
+          <a class="link-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
-      <ul>
-        <li><button>Wszystkie</button></li>
-        <li><button>Strony</button></li>
-        <li><button>Aplikacje</button></li>
-        <li><button>Dizajn</button></li>
-        <li><button>Marketing</button></li>
+      <ul class="list">
+        <li><button class="btn-p" type="button">Wszystkie</button></li>
+        <li><button class="btn-p" type="button">Strony</button></li>
+        <li><button class="btn-p" type="button">Aplikacje</button></li>
+        <li><button class="btn-p" type="button">Dizajn</button></li>
+        <li><button class="btn-p" type="button">Marketing</button></li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
           <figure>
             <img src=images/technocrack.jpg width="370" height="294" alt="Portal
             Technocrack">
             <figcaption>
-              <ul>
-                <li><strong>Technocrack</strong></li>
-                <li>Strona internetowa</li>
+              <ul class="list">
+                <li class="caption">Technocrack</li>
+                <li class="caption-gray">Strona internetowa</li>
               </ul>
             </figcaption>
           </figure>
@@ -53,9 +63,9 @@
             <img src=images/vs.jpg width="370" height="294" alt="Koszykarski
             pojedynek">
             <figcaption>
-              <ul>
-                <li><strong>Grafika New Orlean vs Golden Star</strong></li>
-                <li>Dizajn</li>
+              <ul class="list">
+                <li class="caption">Grafika New Orlean vs Golden Star</li>
+                <li class="caption-gray">Dizajn</li>
               </ul>
             </figcaption>
           </figure>
@@ -65,9 +75,9 @@
             <img src=images/seafood.jpg width="370" height="294" alt="Logo
             restauracji z rybą">
             <figcaption>
-              <ul>
-                <li><strong>Restauracja Seafood</strong></li>
-                <li>Aplikacja</li>
+              <ul class="list">
+                <li class="caption">Restauracja Seafood</li>
+                <li class="caption-gray">Aplikacja</li>
               </ul>
             </figcaption>
           </figure>
@@ -77,9 +87,9 @@
             <img src=images/headphones.jpg width="370" height="294" alt="Zdjęcie
             słuchawek">
             <figcaption>
-              <ul>
-                <li><strong>Projekt Prime</strong></li>
-                <li>Marketing</li>
+              <ul class="list">
+                <li class="caption">Projekt Prime</li>
+                <li class="caption-gray">Marketing</li>
               </ul>
             </figcaption>
           </figure>
@@ -89,9 +99,9 @@
             <img src=images/boxes.jpg width="370" height="294" alt="Dwa
             pudełka">
             <figcaption>
-              <ul>
-                <li><strong>Projekt Boxes</strong></li>
-                <li>Aplikacja</li>
+              <ul class="list">
+                <li class="caption">Projekt Boxes</li>
+                <li class="caption-gray">Aplikacja</li>
               </ul>
             </figcaption>
           </figure>
@@ -101,9 +111,9 @@
             <img src=images/inspiration.jpg width="370" height="294" alt="Strona
             Inspiration">
             <figcaption>
-              <ul>
-                <li><strong>Inspiration has no Borders</strong></li>
-                <li>Strona internetowa</li>
+              <ul class="list">
+                <li class="caption">Inspiration has no Borders</li>
+                <li class="caption-gray">Strona internetowa</li>
               </ul>
             </figcaption>
           </figure>
@@ -113,9 +123,9 @@
             <img src=images/limited.jpg width="370" height="294" alt="Czasopismo
             Limited Edition">
             <figcaption>
-              <ul>
-                <li><strong>Magazyn Limited Edition</strong></li>
-                <li>Dizajn</li>
+              <ul class="list">
+                <li class="caption">Magazyn Limited Edition</li>
+                <li class="caption-gray">Dizajn</li>
               </ul>
             </figcaption>
           </figure>
@@ -125,9 +135,9 @@
             <img src=images/lab.jpg width="370" height="294" alt="Zawieszka LAB
             na sznurku">
             <figcaption>
-              <ul>
-                <li><strong>Projekt LAB</strong></li>
-                <li>Marketing</li>
+              <ul class="list">
+                <li class="caption">Projekt LAB</li>
+                <li class="caption-gray">Marketing</li>
               </ul>
             </figcaption>
           </figure>
@@ -137,26 +147,37 @@
             <img src=images/business.jpg width="370" height="294" alt="Laptop z
             napisem Growing Business na ekranie">
             <figcaption>
-              <ul>
-                <li><strong>Growing Business</strong></li>
-                <li>Aplikacja</li>
+              <ul class="list">
+                <li class="caption">Growing Business</li>
+                <li class="caption-gray">Aplikacja</li>
               </ul>
             </figcaption>
           </figure>
         </li>
       </ul>
     </main>
-    <footer>
-      <ul>
+    <footer class="footer">
+      <ul class="list">
         <li>
-          <span class="accent">Web</span><span class="studio">Studio</span>
+          <a class="logo" href="./index.html"
+            ><span class="logo-blue">Web</span
+            ><span class="logo-white">Studio</span></a
+          >
         </li>
       </ul>
       <address>
-        <ul>
+        <ul class="list">
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="link-contact-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link-contact-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
