@@ -4,7 +4,7 @@
   --dgray: #212121;
   --lgray: #757575;
   --blue: #2196f3;
-  /* --bold: bold; */
+  --gray-background: #f5f4fa;
 }
 body {
   background-color: var(--white);
@@ -20,7 +20,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   color: var(--blue);
-  font-style: normal;
   line-height: 1.17em;
   letter-spacing: 0.03em;
 }
@@ -29,7 +28,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   color: #000;
-  font-style: normal;
   line-height: 1.17em;
   letter-spacing: 0.03em;
 }
@@ -38,7 +36,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   color: var(--white);
-  font-style: normal;
   line-height: 1.17em;
   letter-spacing: 0.03em;
 }
@@ -48,11 +45,9 @@ body {
   font-size: 14px;
   line-height: 1.17em;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .link {
   text-decoration: none;
-  cursor: pointer;
 }
 .link-contact {
   color: var(--lgray);
@@ -60,7 +55,6 @@ body {
   font-size: 14px;
   line-height: 1.17em;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .link-contact-footer {
   text-decoration: none;
@@ -68,7 +62,6 @@ body {
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
-  font-style: normal;
   opacity: 60%;
 }
 .address {
@@ -76,7 +69,6 @@ body {
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 
 .link:hover,
@@ -94,7 +86,7 @@ body {
   width: 1170px;
   height: 101px;
 }
-.main-bg {
+.main-background {
   background-color: var(--gray);
   width: 1600px;
   height: 600px;
@@ -110,23 +102,21 @@ body {
   line-height: 1.36em;
   letter-spacing: 0.06em;
   text-align: center;
-  font-style: normal;
 }
-.btn {
+.button {
   color: var(--white);
   background-color: var(--blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.06em;
-  font-style: normal;
   margin-left: 742px;
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
 }
-.team-bg {
-  background-color: #f5f4fa;
+.team-background {
+  background-color: var(--gray-background);
   width: 1600px;
   height: 648px;
 }
@@ -138,7 +128,7 @@ body {
 .active-page {
   color: var(--blue);
 }
-.lorem-h {
+.lorem-header {
   color: inherit;
   font-size: 14px;
   line-height: 1.14em;
@@ -152,28 +142,26 @@ body {
   line-height: 1.71em;
   letter-spacing: 0.03em;
 }
-.header-2 {
+.main-header {
   color: inherit;
   font-size: 36px;
   line-height: 1.17em;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
-.btn-p {
+.button-portfolio {
   color: inherit;
-  background-color: #f5f4fa;
+  background-color: var(--gray-background);
   font-weight: 500;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.62em;
   letter-spacing: 0.03em;
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
 }
-.btn-p:hover,
-.btn-p:focus {
-  color: white;
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white);
   background-color: var(--blue);
 }
 .caption {
@@ -182,34 +170,23 @@ body {
   font-size: 16px;
   line-height: 1.18em;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 .caption-gray {
   color: var(--lgray);
   font-size: 16px;
   line-height: 1.18em;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
-.caption-p {
+.caption-portfolio {
   color: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  font-style: normal;
 }
-.caption-gray-p {
+.caption-gray-portfolio {
   color: var(--lgray);
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
-
-/* color:;
-  font-weight:;
-  font-size:;
-  line-height:;
-  letter-spacing:;
-  font-style:; */
