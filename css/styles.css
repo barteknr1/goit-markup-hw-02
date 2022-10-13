@@ -10,6 +10,7 @@ body {
   background-color: var(--white);
   color: var(--dgray);
   font-family: "roboto", sans-serif;
+  font-style: normal;
 }
 .menu-container {
   width: 1600px;
@@ -77,6 +78,7 @@ body {
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 .inline {
   display: inline-flex;
@@ -124,6 +126,7 @@ body {
   background-color: var(--gray);
   width: 1600px;
   height: 252px;
+  font-style: normal;
 }
 .active-page {
   color: var(--blue);
